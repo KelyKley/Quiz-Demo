@@ -12,6 +12,7 @@
     text-align: center;
     height: 420px;
     border: 10px solid #fff3ec;
+    margin: 4%;
 }
 
 .circle-button {
@@ -44,15 +45,18 @@
     background-color: salmon;
 }
 
+img{
+    width: 150px;
+}
 button {
     background-color: #edecf0;
     color: #4b4668;
     font-size: 20px;
     font-weight: 200;
-    margin: 0 0 11px;
+    margin: 10px 12px 11px;
     border: 1px solid #4b4668;
     padding: 6px 44px 6px 14px;
-    width: 100%;
+    width: 50%;
     text-align: left;
     transition: background-color .3s linear, border-color .3s linear, color .3s linear;
 }
@@ -156,9 +160,12 @@ a {
 
 .correctas {
     color: salmon;
+    text-align: left;
+    padding-left: 30px;
 }
 
 .califica {
     color: green;
     text-align: left;
+    padding-left: 30px;
 }

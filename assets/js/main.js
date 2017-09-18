@@ -303,7 +303,7 @@ function correccion() {
     var mi_rpta = [primero, segundo, tercero, cuarto, quinto];
 
     for (var p = 0; p < preguntas.length; p++) {
-        var rpta = document.createElement("H4");
+        var rpta = document.createElement("H5");
         rpta.setAttribute("class", "califica");
         var crear_text_rpta = document.createTextNode(preguntas[p] + " " + mi_rpta[p] + "  ->  " + rpta_correcta[p]);
         rpta.appendChild(crear_text_rpta);
@@ -312,7 +312,7 @@ function correccion() {
     }
 
     var create_button = document.createElement("BUTTON");
-    var text_btn = document.createTextNode("Iniciar denuevo");
+    var text_btn = document.createTextNode("INICIAR");
     create_button.setAttribute("class", "text-center");
     create_button.setAttribute("type", "submit");
     create_button.appendChild(text_btn);
