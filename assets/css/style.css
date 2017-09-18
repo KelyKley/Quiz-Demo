@@ -10,12 +10,12 @@
     background: white;
     padding: 6%;
     text-align: center;
-    height: 300px;
+    height: 420px;
 }
 
 
 
-.cta-button {
+.circle-button {
     background-color: #ff1493;
     border: none;
     color: #fff;
@@ -32,64 +32,38 @@
     overflow: hidden;
 }
 
-button, input, select, textarea {
-    font-family: inherit;
-    font-size: inherit;
-    line-height: inherit;
-}
- button, html input[type=button], input[type=reset], input[type=submit] {
-    -webkit-appearance: button;
-    cursor: pointer;
-}
- button, select {
-    text-transform: none;
-}
- button {
-    overflow: visible;
-}
- button, input, optgroup, select, textarea {
-    color: inherit;
-    font: inherit;
-    margin: 0;
-}
- *, :after, :before {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
 
 .glyphicon-info-sign {
     font-size: 23px;
 }
 
-
-
-
-
+button{
+    background-color: #edecf0;
+    color: #4b4668;
+    font-size: 20px;
+    font-weight: 200;
+    margin: 0 0 11px;
+    border: 1px solid #4b4668;
+    padding: 6px 44px 6px 14px;
+    width: 100%;
+    text-align: left;
+    transition: background-color .3s linear,border-color .3s linear,color .3s linear;
+}
 
 
 
 body, h1 {
     color: #4b4668;
 }
-    body {
-    padding: 50px 0;
-    background-color: #fff3ec;
-}
+
     body {
     font-family: OpenSans-Light,Tahoma,Helvetica Neue,Helvetica,Arial,sans-serif;
     font-size: 14px;
     line-height: 1.42857;
     color: #333;
-    background-color: #eee;
-}
-    body {
-    margin: 0;
-}
-    body, h1 {
-    color: #4b4668;
-}
-    body {
+        margin: 0
+
+
     padding: 50px 0;
     background-color: #fff3ec;
 }
