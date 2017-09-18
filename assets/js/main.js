@@ -328,10 +328,10 @@ function correccion(){
 
 	var mi_respuesta = document.createElement("DIV");
 	mi_respuesta.setAttribute("id", "respuestas_correctas");
-	var pregunta = document.createElement("H1");
+	var pregunta = document.createElement("H3");
 	var text = document.createTextNode("Respuestas correctas");
 	pregunta.appendChild(text);
-var contador_correctas = document.createElement("H3");
+var contador_correctas = document.createElement("H4");
 var texto = document.createTextNode(contador +" de 5");
 contador_correctas.appendChild(texto);
 	mi_respuesta.appendChild(pregunta);
